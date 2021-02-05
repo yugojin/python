@@ -1,5 +1,5 @@
-print('あなたの名前を教えてください。')
- 
-your_name = input('>> ')
- 
-print(your_name)
+test_str =  """
+test_1
+test_2
+"""
+print(test_str)
