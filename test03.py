@@ -1,7 +1,17 @@
-
-test_integer = 100
+import datetime
  
-print(test_integer + 10)    # 加算（足し算）
-print(test_integer - 10)    # 減算（引き算）
-print(test_integer * 10)    # 乗算（掛け算）
-print(test_integer / 10)    # 除算（割り算）
+ 
+def get_today():
+ 
+    today = datetime.datetime.today()
+    value = (today.year, today.month, today.day)
+ 
+    return value
+ 
+ 
+test_tuple = get_today()
+ 
+print(test_tuple)
+print(test_tuple[0])
+print(test_tuple[1])
+print(test_tuple[2])
