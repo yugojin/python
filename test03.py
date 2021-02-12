@@ -1,7 +1,7 @@
-test_list_1 = ['python', '-', 'izm', '.', 'com']
-print(test_list_1)
+test_set_1 = {'python', '-', 'izm', '.', 'com'}
+print(test_set_1)
  
 print('--------------------------------')
  
-for i in test_list_1:
+for i in test_set_1:
     print(i)
