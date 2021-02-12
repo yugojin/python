@@ -1,7 +1,3 @@
-test_set_1 = {'python', '-', 'izm', '.', 'com'}
-print(test_set_1)
+test_list = ['https', 'www', 'python', 'izm', 'com']
  
-print('--------------------------------')
- 
-for i in test_set_1:
-    print(i)
+print(test_list[:4])
