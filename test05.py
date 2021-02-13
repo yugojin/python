@@ -1,13 +1,17 @@
-test_set_1 = set()
+# 通常のコメントアウト
+# print("test 1")
+print("test 2")    # この書き方も有効です
  
-test_set_1.add('python')
-test_set_1.update({'-', 'izm', '.', 'com'})
- 
-print(test_set_1)
-
-test_set_1 = {'python', '-', 'izm', '.', 'com'}
- 
-test_set_1.remove('-')
-test_set_1.discard('.')
- 
-print(test_set_1)
+# 複数行のコメントアウトのように扱う
+'''
+print("test 3")
+print("test 4")
+'''
+     
+# ネストさせた疑似複数行コメントアウト
+'''
+print("test 5")
+"""
+print('test 6')
+"""
+'''
