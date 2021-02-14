@@ -1,28 +1,10 @@
-import datetime
+import testmod
+ 
+test_class_1 = testmod.TestClass()
+test_class_1.test_method('1')
  
  
-today = datetime.date.today()
-todaydetail = datetime.datetime.today()
+from testmod import TestClass
  
-# 今日の日付
-print('----------------------------------')
-print(today)
-print(todaydetail)
- 
-# 今日に日付：それぞれの値
-print('----------------------------------')
-print(today.year)
-print(today.month)
-print(today.day)
-print(todaydetail.year)
-print(todaydetail.month)
-print(todaydetail.day)
-print(todaydetail.hour)
-print(todaydetail.minute)
-print(todaydetail.second)
-print(todaydetail.microsecond)
- 
-# 日付のフォーマット
-print('----------------------------------')
-print(today.isoformat())
-print(todaydetail.strftime("%Y/%m/%d %H:%M:%S"))
+test_class_2 = TestClass()
+test_class_2.test_method('2')
