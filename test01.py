@@ -1,5 +1,5 @@
-counter = 0
+for num in range(100):
+    print(num)
  
-while counter < 10:
-    counter += 1
-    print(counter)
+    if num == 10:
+        break
