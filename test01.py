@@ -1,2 +1,4 @@
-for i in xrange(10):
-    print i
+print('python')
+print('-')
+print('izm')
+print('com')
