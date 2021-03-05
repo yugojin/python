@@ -1,4 +1,4 @@
-def test_func(num_1, num_2, oprn):
+def test_func(num_1, num_2, oprn=1):
  
     if oprn == 1:
         print('足し算開始')
@@ -18,6 +18,5 @@ def test_func(num_1, num_2, oprn):
  
     else:
         print('不明なオペレーション指定です')
-         
  
-test_func(100, 10, 3)
+test_func(100, 10)
