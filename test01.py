@@ -1,4 +1,5 @@
-def test_func(*args):
+def test_func(code, name, *args):
+    print(code, name)
     print(args)
  
-test_func(1, 2, 3, 4, 5)
+test_func(100, 'python-izm', 'JP', 'US')
