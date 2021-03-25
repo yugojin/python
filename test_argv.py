@@ -1,8 +1,11 @@
-import sys
+class ContextManagerTest:
  
-args = sys.argv
+    def __enter__(self):
+        print('__enter__')
  
-print(args)
-print('第１引数：' + args[1])
-print('第２引数：' + args[2])
-print('第３引数：' + args[3])
+    def __exit__(self, exc_type, exc_value, traceback):
+        print('__exit__')
+ 
+ 
+with ContextManagerTest():
+    print('with')
