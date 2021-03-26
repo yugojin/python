@@ -1,9 +1,11 @@
-with open('file.txt') as f:
-     
-    #
-    # 何らかの処理を行う
-    #
-     
-    print(f.closed)
+class ContextManagerTest:
  
-print(f.closed)
+    def __enter__(self):
+        print('__enter__')
+ 
+    def __exit__(self, exc_type, exc_value, traceback):
+        print('__exit__')
+ 
+ 
+with ContextManagerTest():
+    print('with')
